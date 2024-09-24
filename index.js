@@ -145,7 +145,7 @@ client.on('message', async (message) => {
       let embed = new discord.MessageEmbed()
         .setAuthor('ModMail BOT', client.user.displayAvatarURL())
         .setColor('GREEN')
-        .setDescription('Ovaj bot je napravio Mark :D')
+        .setDescription('Ovaj bot je napravio https://snagapiksela.net :D')
         .addField(`${prefix}setup`, 'Postavi ModMail (ne možete koristiti za više poslužitelja)', true)
         .addField(`${prefix}open`, 'Omogućuje vam otvaranje pošte za kontaktiranje bilo koga s njegovim ID-em', true)
         .addField(`${prefix}close`, 'Zatvara poštu u kojoj koristite ovu naredbu.', true)

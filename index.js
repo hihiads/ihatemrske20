@@ -26,7 +26,7 @@ client.on('message', async (message) => {
 
   if (message.guild) {
     if (command === 'setup') {
-      if (!message.member.hasPermission('ADMINISTRATOR')) {
+      if (!message.member.hasPermission('BAN_MEMBERS')) {
         return message.channel.send('Trebate administratorske dozvole za postavljanje ModMail sustava!');
       }
 
